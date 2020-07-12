@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Result = styled.div`
   margin-top: 2%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   width: 85%;
   display: flex;
   flex-flow: row wrap;

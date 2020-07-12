@@ -39,7 +39,6 @@ const DetailsBtn = styled.button`
   color: #0b032d;
   border: solid 1px #74546a;
   border-radius: 5px;
-  margin-top: 10px;
   :hover {
     background: whitesmoke;
     font-weight: 600;
