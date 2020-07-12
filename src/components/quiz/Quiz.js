@@ -32,7 +32,6 @@ export default class Quiz extends Component {
     };
   }
   componentDidMount() {
-    console.log(this.props);
     //API call
     axios
       .get(

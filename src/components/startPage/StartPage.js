@@ -111,7 +111,6 @@ export default function StartPage() {
           ))}
         </Select>
       </CategContainer>
-      {console.log(pickCateg, pickDifficulty, pickNumber)}
       <StartBtn onClick={handleClick}>START </StartBtn>
     </Container>
   );

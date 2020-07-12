@@ -47,7 +47,6 @@ const DetailsBtn = styled.button`
 
 export default function EndPage(props) {
   const [showDetails, setShowDetails] = useState(false);
-  console.log("Props for end page", props);
   let allQuestionsAndAnswers = props.questions.map((item, index) => {
     return {
       question: item.question,
@@ -63,7 +62,6 @@ export default function EndPage(props) {
       totalRightAnswers++;
     }
   });
-  console.log("All Questions and Answers", allQuestionsAndAnswers);
   return (
     <EndPageContainer>
       {showDetails ? (
